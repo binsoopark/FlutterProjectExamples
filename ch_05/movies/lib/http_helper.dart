@@ -5,7 +5,7 @@ import 'movie.dart';
 
 
 class HttpHelper {
-  final String urlKey = 'api_key=fabbfe13cd9d19dfb449abbc1efdb57f';
+  final String urlKey = 'api_key=[YOUR API KEY]';
   final String urlBase = 'https://api.themoviedb.org/3/movie';
   final String urlUpcoming = '/upcoming?';
   final String urlLanguage = '&language=ko-KR';
