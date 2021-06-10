@@ -8,7 +8,7 @@ import 'book.dart';
 import '../favorite_screen.dart';
 
 class BooksHelper {
-  final String urlKey = '&key=AIzaSyCDhlMQ47fuD1EK6-uHB76zufGkX6WubGc';
+  final String urlKey = '&key=[YOUR API KEY]';
   final String urlQuery = 'volumes?q=';
   final String urlBase = 'https://www.googleapis.com/books/v1/';
 
