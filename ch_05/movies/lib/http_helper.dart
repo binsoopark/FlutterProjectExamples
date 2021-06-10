@@ -10,7 +10,7 @@ class HttpHelper {
   final String urlUpcoming = '/upcoming?';
   final String urlLanguage = '&language=ko-KR';
   final String urlSearchBase =
-      'https://api.themoviedb.org/3/search/movie?api_key=fabbfe13cd9d19dfb449abbc1efdb57f&query=';
+      'https://api.themoviedb.org/3/search/movie?api_key=[YOUR API KEY]&query=';
 
   Future<List> getUpcoming() async {
     final String upcoming = urlBase + urlUpcoming + urlKey + urlLanguage;
